@@ -1,0 +1,51 @@
+name: senescence_cd45_env
+channels:
+        - conda-forge
+        - bioconda
+dependencies:
+        - python=3.8
+        - cmake
+        - r-essentials
+        - r-rgl
+        - pandas=1.2.5
+        - numpy
+        - scipy
+        - scikit-learn
+        - jupyter
+        - gsl
+        - tzlocal
+        - simplegeneric
+        - natsort
+        - h5py
+        - tqdm
+        - patsy
+        - llvmlite
+        - numba
+        - networkx
+        - joblib
+        - numexpr
+        - pytables
+        - seaborn
+        - statsmodels
+        - python-igraph
+        - louvain
+        - leidenalg
+        - r-rngtools
+        - bioconductor-rhdf5lib
+        - bioconductor-scran
+        - bioconductor-dropletutils
+        - bioconductor-limma
+        - bioconductor-edgeR
+        - gseapy
+        - anndata
+        - scanpy
+        - xlsxwriter
+        - pip
+        - pip:
+           - fa2
+           - gprofiler-official
+           - scrublet
+           - rpy2
+           - git+https://github.com/flying-sheep/anndata2ri
+           - git+https://github.com/emdann/milopy.git
+
